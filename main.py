@@ -68,6 +68,7 @@ def print_slot_machines(columns):
 
 def deposit():
     while True:
+        print()
         amount = input("What would you like to deposit? $")
         if amount.isdigit():
             amount = int(amount)
@@ -130,10 +131,12 @@ def main():
     balance = deposit()
     while True:
         print(f"Current balance is ${balance}.")
+        print()
         if balance == 0:
             print("You're out of money!!\nThanks for playing.")
             break
         answer = input("Press enter to play(q to quit):  ")
+        print()
         if answer == "q":
             break
         elif answer == "":
@@ -141,6 +144,6 @@ def main():
         else:
             print("Please enter 'ENTER' or 'q' only!!\n\n")
 
-    print(f"You left with ${balance}.")
+    print(f"You left with ${balance}.\n\n")
 
 main()
