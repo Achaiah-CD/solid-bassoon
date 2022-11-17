@@ -11,18 +11,18 @@ COLS = 3
 
 # Dict of Number of symbols each.
 symbol_count = {
-    "A":2,
-    "B":4,
-    "C":6,
-    "D":8
+    "AA":2,
+    "BB":4,
+    "CC":6,
+    "DD":8
 }
 
 # Dict of the multiplier if you win. (A - 5x.....)
 symbol_value = {
-    "A":5,
-    "B":4,
-    "C":3,
-    "D":2
+    "AA":5,
+    "BB":4,
+    "CC":3,
+    "DD":2
 }
 
 
